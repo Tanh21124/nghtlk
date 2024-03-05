@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NGHTLK</title>
+  <link rel="icon" type="image/png" href="img/moon.png">
+<link rel="stylesheet" href="nghtlk.css">
+<script src="nghtlk.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Barrio&family=Exo+2&family=Kranky&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Exo+2&family=Kranky&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Exo+2&family=Kranky&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Barrio&family=Codystar&family=Exo+2&family=Kranky&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Barrio&family=Codystar&family=Exo+2&family=Kranky&family=Patrick+Hand&display=swap" rel="stylesheet">
+<body>
+<audio id="backgroundMusic" src="jazz-music.mp3" loop autoplay></audio><div id="stop-container" onclick="toggleAudio()"><img id="stop" src="img/stop.png"></div>
+
+<img id="loading-city-light" src="img/city-light.png">
+<img id="loading-city" src="img/city.png">
+<div id="rectangle"></div>
+<div id="head">
+<div id="a">NGHTLK</div>
+<div id="b">NIGHT</div>
+<div id="b2">TALK</div>
+<div id="c">illustration series</div>
+</div>
+<div id="container">
+<hr id="hr">
+  <div class="dropdown">
+    <div class="dropdown-header" onclick="toggleDropdown()">
+      <span class="dropdown-arrow"><img id="dd-arrow" src="img/dropdown-arrow.png"></span>
+      <div id="description">Description</div>
+    </div>
+    <div class="dropdown-content">
+      <p>&nbsp;&nbsp;&nbsp;&nbsp <strong>NGHTLK</strong>, short for Night Talk, is a series of works made by sleepless 
+        person and inspired by the midnight mood. The series is purely personal and was 
+        created to express my artistic urge.<br><br>
+
+        The series began in 2021 with three illustrations named <i>"Oops"</i>, <i>"Dance Tonight"</i> and 
+        <i>"I'm Drunk!"</i>. It's fun to play with their shapes and colors. I then continued to draw and animate my characters
+         - cats in different contexts that my emotions go through.<br><br>
+      </p>
+    </div>
+  </div>
+  <hr id="hr">
+  <div class="title">City Night</div>
+  <section id="A">
+    <div id="A1"class="hover"><img class="illustration-main" src="img/illustration/A1.png">
+      <span class="t-text">Oops</span></div>
+    <div id="A2"class="hover"><img class="illustration" src="img/illustration/A2.png">
+      <span class="t-text">Dance Tonight</span></div>
+    <div id="A3"class="hover"><img class="illustration" src="img/illustration/A3.png">
+      <span class="t-text">I'm Drunk!</span></div>
+    <div id="A4"class="hover"><img class="illustration" src="img/illustration/A4.jpg">
+      <span class="t-text">2 Lonely Cats</span></div>
+    <div id="A5"class="hover"><img class="illustration" src="img/illustration/A5.jpg">
+      <span class="t-text">Not Caring Anymore</span></div>
+  </section>
+  <div class="title">Dream</div>
+  <section id="B">
+    <div id="B1"class="hover"><img class="illustration-main" src="img/illustration/B1.jpg">
+      <span class="t-text">Dream1</span></div>
+    <div id="B2"class="hover"><img class="illustration" src="img/illustration/B2.jpg">
+      <span class="t-text">Hide</span></div>
+    <div id="B3"class="hover"><img class="illustration" src="img/illustration/B3.jpg">
+      <span class="t-text">3 Of Wands</span></div>
+    <div id="B4"class="hover"><img class="illustration" src="img/illustration/B4.jpg">
+      <span class="t-text">Dream2</span></div>
+    <div id="B5"class="hover"><img class="illustration" src="img/illustration/B5.jpg">
+      <span class="t-text">Dream3</span></div>
+  </section>
+  <div class="title">Dormitory</div>
+  <section id="C">
+    <div id="C1"class="hover"><img class="illustration-main" src="img/illustration/C1.jpg">
+      <span class="t-text">Full!</span></div>
+    <div id="C2"class="hover"><img class="illustration" src="img/illustration/C2.jpg">
+      <span class="t-text">Corridor</span></div>
+    <div id="C3"class="hover"><img class="illustration" src="img/illustration/C3.jpg">
+      <span class="t-text">Showering</span></div>
+    <div id="C4"class="hover"><img class="illustration" src="img/illustration/C4.jpg">
+      <span class="t-text">Post-Shower</span></div>
+    <div id="C5"class="hover"><img class="illustration" src="img/illustration/C5.jpg">
+      <span class="t-text">Dorm Room</span></div>
+  </section>
+  
+  <div class="title">Animated Gifs</div>
+  <section id="ani1-2">
+    <div id="ani1"class="hover"><img class="ani-left" src="animation/ani1.gif">
+      <span class="t-text">NGHTLK</span></div>
+    <div id="ani2"class="hover"><img class="ani-right" src="animation/ani2.gif">
+      <span class="t-text">Airport</span></div>
+  </section>
+  <section id="ani3-4">
+    <div id="ani3"class="hover"><img class="ani-left" src="animation/ani3.gif">
+      <span class="t-text">Optics</span></div>
+    <div id="ani4"class="hover"><img class="ani-right" src="animation/ani4.gif">
+      <span class="t-text">Drunker</span></div>
+  </section>
+  <section id="ani5-6">
+    <div id="ani5"class="hover"><img class="ani-left" src="animation/ani5.gif">
+      <span class="t-text">Flashing Lights</span></div>
+    <div id="ani6"class="hover"><img class="ani-right" src="animation/ani6.gif">
+      <span class="t-text">Forest</span></div>
+  </section>
+  <section id="ani7-8">
+    <div id="ani7"class="hover"><img class="ani-left" src="animation/ani7.gif">
+      <span class="t-text">Twin</span></div>
+    <div id="ani8"class="hover"><img class="ani-right" src="animation/ani8.gif">
+      <span class="t-text">Table</span></div>
+  </section>
+</div>
+<hr id="hr">
+<div class="contact">Contact Me!</div>
+    <div><span><img class="icon" src="img/instagram.png"></span><br>
+      <a class="link"href="https://www.instagram.com/tanh21124/">tanh21124</a></div>
+<div id="arrow-container"><img id="btn" src="img/arrow.png"><div id="back-to-top">Back to top</div></div>
+</body>
+</html>

@@ -68,9 +68,7 @@
   background: #c290ef; 
   border-radius: 10px;
 }
-::-webkit-scrollbar-thumb:hover {
-  background: #f2a6dc;
-}
+
 body{
   background-color: #3b5fe2;
 }
@@ -150,6 +148,7 @@ body {
 }
 
 #hr {
+  position: relative;
   height:0.2vw;
   width:30vw;
   background-color:rgb(92, 122, 255);
@@ -159,6 +158,7 @@ body {
 }
 
 #description {
+  position: relative;
   font-family: 'Amatic SC', cursive;
   color:#f3ff17;
   font-size: 6.5vw;
@@ -167,6 +167,7 @@ body {
 }
 
 .dropdown {
+  position: relative;
   width: 70vw;
   border: 1px solid #ffffff;
   border-radius: 36px;
@@ -198,6 +199,7 @@ body {
 
 /* Title */
 .title {
+  position: relative;
   font-family: 'Codystar', cursive;
   color:#f2fdf5;
   margin-left:10vw;
@@ -207,6 +209,7 @@ body {
 /* Illustration */
 /* A */
 #A {
+  position: relative;
   display: grid;
   grid-gap: 1vw;
   grid-template-areas:
@@ -222,6 +225,7 @@ body {
 
 /* B */
 #B {
+  position: relative;
   display: grid;
   grid-gap: 1vw;
   grid-template-areas:
@@ -236,6 +240,7 @@ body {
 }
 /* C */
 #C {
+  position: relative;
   display: grid;
   grid-gap: 1vw;
   grid-template-areas:
@@ -251,6 +256,7 @@ body {
 
 
 .illustration {
+  position: relative;
   border-radius:20%;
   width:20vw;
   transition: 0.1s ease-in-out;
@@ -261,11 +267,9 @@ body {
   transition: 0.1s ease-in-out;
 }
 .illustration:hover {
-  scale: 1.1;
   box-shadow: #ffffff 0px 5px 15px;
 }
 .illustration-main:hover {
-  scale: 1.1;
   box-shadow: #ffffff 0px 5px 15px;
 }
 .t-text{
@@ -289,6 +293,7 @@ body {
 
 /* animation */
 #ani1-2 {
+  position: relative;
   display: grid;
   grid-gap: 1vw;
   grid-template-areas:
@@ -296,6 +301,7 @@ body {
   grid-template-columns: 1fr 1fr;
 }
 #ani3-4 {
+  position: relative;
   display: grid;
   grid-gap: 1vw;
   grid-template-areas:
@@ -303,6 +309,7 @@ body {
   grid-template-columns: 1fr 1fr;
 }
 #ani5-6 {
+  position: relative;
   display: grid;
   grid-gap: 1vw;
   grid-template-areas:
@@ -310,6 +317,7 @@ body {
   grid-template-columns: 1fr 1fr;
 }
 #ani7-8 {
+  position: relative;
   display: grid;
   grid-gap: 1vw;
   grid-template-areas:
@@ -317,30 +325,32 @@ body {
   grid-template-columns: 1fr 1fr;
 }
 .ani-left {
+  position: relative;
   border-radius:20%;
   margin-left: 5vw;
   margin-bottom: 15vw;
   width:43vw;
 }
 .ani-right {
+  position: relative;
   border-radius:20%;
   margin-left: 2vw;
   margin-bottom: 15vw;
   width:43vw;
 }
 .ani-left:hover {
-  scale: 1.1;
   box-shadow: #ffffff 0px 5px 15px;
 }
 .ani-right:hover {
-  scale: 1.1;
   box-shadow: #ffffff 0px 5px 15px;
 }
 /* Contact */
 .contact{
-  display: inline-block;
+  top: 170px;
+  position: relative;
+  display: block;
   font-family: 'Amatic SC', cursive;
-  font-size: 11.5vw;
+  font-size: 11vw;
   color:#f2fdf5;
   margin-left: 17vw;
   margin-top: 3vw;
@@ -358,7 +368,7 @@ a:active {
 .icon {
   width: 7vw;
   margin-left: 20vw;
-  margin-top:5vw;
+  margin-top:15vw;
 }
 .link {
   font-size: 6vw;
